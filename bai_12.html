@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let principal= +prompt("Enter your money");
+    let numberOfLoanMonth= +prompt("Enter your months");
+    let interestRate= +prompt("Enter your interestRate");
+    let interest= principal*((1+interestRate)**numberOfLoanMonth)-principal;
+    alert("Số tiền lãi = " +interest);
+
+</script>
+</body>
+</html>

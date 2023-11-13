@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Enter a");
+    let cost1 = a * 0.05;
+    let cost2 = a * 0.1;
+    let cost3 = a * 0.15;
+    let cost4 = a * 0.2;
+    let cost5 = a * 0.25;
+    let cost6 = a * 0.3;
+    let cost7 = a * 0.35;
+    if (a <= 5000000){
+        alert("Tiền thuế phải nộp = " +cost1);
+    }else if (5000000 < a <= 10000000 ) {
+        alert("Tiền thuế phải nộp = " +cost2);
+    }else if (10000000 < a <= 18000000 ) {
+        alert("Tiền thuế phải nộp = " +cost3);
+    }else if (18000000 < a <= 32000000 ) {
+        alert("Tiền thuế phải nộp = " +cost4);
+    }else if (32000000 < a <= 52000000 ) {
+        alert("Tiền thuế phải nộp = " +cost5);
+    }else if (52000000 < a <= 80000000 ) {
+        alert("Tiền thuế phải nộp = " +cost5);
+    }else if ( a > 80000000 ) {
+        alert("Tiền thuế phải nộp = " +cost7);
+    }
+</script>
+</body>
+</html>

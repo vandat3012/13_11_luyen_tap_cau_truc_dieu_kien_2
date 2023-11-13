@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Enter a");
+    let cost1 = a * 1728;
+    let cost2 = a * 1786;
+    let cost3 = a * 2074;
+    let cost4 = a * 2612;
+    let cost5 = a * 2919;
+    let cost6 = a * 3015;
+   if (0 < a <= 50){
+       alert("Tiền điện phải trả = " +cost1);
+   }else if (51 <= a <= 100 ) {
+       alert("Tiền điện phải trả = " +cost2);
+   }else if (101 <= a <= 200 ) {
+       alert("Tiền điện phải trả = " +cost3);
+   }else if (201 <= a <= 300 ) {
+       alert("Tiền điện phải trả = " +cost4);
+   }else if (301 <= a <= 400 ) {
+       alert("Tiền điện phải trả = " +cost5);
+   }else if ( a >= 401 ) {
+       alert("Tiền điện phải trả = " +cost6);
+   }
+</script>
+</body>
+</html>
